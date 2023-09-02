@@ -1,0 +1,278 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    height: 100vh;
+}
+body{
+    width: 100%;
+    height: auto;
+}
+#wrapper{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow-y: hidden;
+}
+.title{
+    font-size: 24px;
+    position: absolute;
+    top: 40px;
+    left: 70px;
+    font-family: 'Inconsolata', sans-serif;
+}
+.content{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+.content .imgbox{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.imgbox img{
+    width: 539.22px;
+    height: 447.43px;
+    flex-shrink: 0;
+}
+.descripcion{
+    width: 70%;
+    float: left;
+}
+.descripcion .heading{
+    width: 586px;
+    font-size: 3.5rem;
+    color: var(--Gray-1, #333);
+    font-family: 'Space Mono', 'Inconsolata';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.24px;
+}
+.descripcion p{
+    width: 381px;
+    color: var(--Gray-2, #4F4F4F);
+    font-family: 'Space Mono', 'Inconsolata';
+    font-size: 1.3em;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.84px;
+    margin-top: 1.3em;
+}
+.descripcion .btn{
+    width: 216px;
+    height: 180px;
+    padding: 20px 0;
+}
+.descripcion button{
+    width: 216px;
+    height: 60px;
+    flex-shrink: 0;
+    background-color: #333;
+    border: none;
+    margin-top: 2rem;
+
+}
+.descripcion button a{
+    color: #FFF;
+    font-family: 'Space Mono', 'Inconsolata';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.49px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+@media screen and (max-width: 1300px) {
+    html{
+        width: 100%;
+        height: 100vh;
+    }
+    body{
+        width: 100%;
+        height: auto;
+    }
+    #wrapper{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        overflow-y: hidden;
+    }
+    .title{
+        font-size: 24px;
+        position: absolute;
+        top: 40px;
+        left: 50px;
+        font-family: 'Inconsolata', sans-serif;
+    }
+    .content{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 120px;
+    }
+    .content .imgbox{
+        width: 45%;
+
+    }
+    .imgbox img{
+        width: 390px;
+        height: 400px;
+        margin: 0 auto;
+        flex-shrink: 0;
+    }
+    .descripcion{
+        width: 45%;
+        float: left;
+    }
+    .descripcion .heading{
+        width: 400px;
+        font-size: 3rem;
+        color: var(--Gray-1, #333);
+        font-family: 'Space Mono', 'Inconsolata';
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -2.24px;
+    }
+    .descripcion p{
+        width: 381px;
+        color: var(--Gray-2, #4F4F4F);
+        font-family: 'Space Mono', 'Inconsolata';
+        font-size: 1.3em;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.84px;
+        margin-top: 1.3em;
+    }
+    .descripcion .btn{
+        width: 216px;
+        height: 180px;
+        padding: 20px 0;
+    }
+    .descripcion button{
+        width: 216px;
+        height: 60px;
+        flex-shrink: 0;
+        background-color: #333;
+        border: none;
+        margin-top: 2rem;
+    
+    }
+    .descripcion button a{
+        color: #FFF;
+        font-family: 'Space Mono', 'Inconsolata';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.49px;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    html{
+        width: 100%;
+        height: 100vh;
+    }
+    body{
+        width: 100%;
+        height: auto;
+    }
+    #wrapper{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .title{
+        font-size: 24px;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        font-family: 'Inconsolata', sans-serif;
+    }
+    .content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 130px;
+    }
+    .content .imgbox{
+        width: 100%;
+    }
+    .imgbox img{
+        width: 350px;
+        height: 280px;
+        display: block;
+        margin: 0 auto;
+        flex-shrink: 0;
+    }
+    .descripcion{
+        width: 100%;
+        float: left;
+        margin-top: 2.5rem;
+    }
+    .descripcion .heading{
+        width: 380px;
+        color: var(--Gray-1, #333);
+        font-family: 'Space Mono','Inconsolata';
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 150%;
+        letter-spacing: -1.68px;
+        margin: auto;
+        padding-top: 40px;
+        text-align: center;
+    
+    }
+    .descripcion p{
+        width: 380px;
+        color: var(--Gray-2, #4F4F4F);
+        font-family: 'Space Mono', 'Inconsolata';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.63px;
+        margin : auto;
+        padding-top: 40px;
+        text-align: center;
+        
+    }
+    .descripcion .btn{
+        width: 216px;
+        height: 180px;
+        padding: 20px 0;
+        margin: 0 auto;
+    }
+    .descripcion .btn button{
+        background: var(--Gray-1, #333);
+        width: 216px;
+        height: 68px;
+        flex-shrink: 0;
+    }
+    .descripcion button a{
+        color: #FFF;
+        font-family: 'Space Mono', 'Inconsolata';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.49px;
+        text-transform: uppercase;
+        text-decoration: none;
+        cursor: pointer
+    }
+}
