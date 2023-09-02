@@ -33,7 +33,7 @@ body{
     margin-top: 200px;
 }
 .content .imgbox{
-    width: 40%;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-self: center;
@@ -50,7 +50,7 @@ body{
 .descripcion .heading{
     width: 586px;
     font-size: 3.5rem;
-    color: var(--Gray-1, #333);
+    color: var(--Gray-1, #c2cbff);
     font-family: 'Space Mono', 'Inconsolata';
     font-style: normal;
     font-weight: 700;
@@ -76,7 +76,7 @@ body{
     width: 216px;
     height: 60px;
     flex-shrink: 0;
-    background-color: #333;
+    background-color: #7d61f9;
     border: none;
     margin-top: 2rem;
 
